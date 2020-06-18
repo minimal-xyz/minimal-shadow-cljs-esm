@@ -5,5 +5,4 @@
  :builds {:app {:output-dir "target/"
                 :target :esm
                 :asset-path "."
-                :modules {:main {:init-fn app.main/main!}}
-                :devtools {:after-load app.main/reload!}}}}
+                :modules {:main {:init-fn app.main/main!}}}}}
